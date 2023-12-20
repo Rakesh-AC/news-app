@@ -8,7 +8,6 @@ export default class NewsItem extends Component {
 
   render() {
     let {title , description, imageUrl} = this.props;
-    console.log('title',imageUrl);
     return (
       <div>
         <div className="card" style={{width: "18rem"}}>
